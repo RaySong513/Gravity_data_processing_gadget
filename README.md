@@ -7,7 +7,6 @@ Some small tool scripts written for field data processing of gravity measurement
 ## Central_terrain_correction_calc.py
 
 - Python版本：3.11
-- 使用到的库：pandas、numpy、time、openxrl
 
 该程序自动测算中心点与改正范围内的所有点平均值之差，根据角度扇形区域输出该区域内差值，以便后续查阅<扇形域重力地形改正表>
 
@@ -49,7 +48,6 @@ Some small tool scripts written for field data processing of gravity measurement
 ## Central__terrain_correction_calc.py
 
 - **Python version:** 3.11
-- **Libraries used:** pandas, numpy, time, openxrl
 
 The program automatically calculates the difference between the center point and the average value of all points in the correction range, and outputs the difference in the area according to the angle sector area, so as to refer to the <sector domain gravity terrain correction table> later.
 
