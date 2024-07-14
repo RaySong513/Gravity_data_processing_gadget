@@ -24,27 +24,19 @@ Some small tool scripts written for field data processing of gravity measurement
 
 4. 输出如下：
 
-### 程序输出:
-
-- 重力点数据: 
-    - 备注: XXXX（点名）
-    - 号数: X（点号）
-    - X坐标: XXXX.XX
-    - Y坐标: XXXX.XX
-    - 高程值: XXXX.XX
-    - Name: X, dtype: XXXXXX
-
-- 范围 20-50m, 角度区间 0-45度: 
-    - 平均高程差为 XXX 米
-
-- 范围 20-50m, 角度区间 45-90度: 
-    - 平均高程差为 XXX 米
-
-- 范围 500-700m, 角度区间 315.0-337.5度: 
-    - 平均高程差为 XXX 米
-
-- 范围 500-700m, 角度区间 337.5-360.0度: 
-    - 平均高程差为 XXX 米
+``` 
+重力点数据: 备注           XXXX（点名）
+号数               X（点号）
+X坐标    XXXX.XX
+Y坐标    XXXX.XX
+高程值       XXXX.XX
+Name: X, dtype: XXXXXX
+范围 20-50m, 角度区间 0-45度: 平均高程差为 XXX 米
+范围 20-50m, 角度区间 45-90度: 平均高程差为 XXX 米
+…………
+范围 500-700m, 角度区间 315.0-337.5度: 平均高程差为 XXX 米
+范围 500-700m, 角度区间 337.5-360.0度: 平均高程差为 XXX 米
+```
 
 
 Gravity_data_processing_gadget
@@ -71,4 +63,17 @@ The program automatically calculates the difference between the center point and
 3. Double-click to run `Central__terrain_correction_calc.py`
 4. The output is as follows:
 
+``` 
+重力点数据: 备注           XXXX（点名）
+号数               X（点号）
+X坐标    XXXX.XX
+Y坐标    XXXX.XX
+高程值       XXXX.XX
+Name: X, dtype: XXXXXX
+范围 20-50m, 角度区间 0-45度: 平均高程差为 XXX 米
+范围 20-50m, 角度区间 45-90度: 平均高程差为 XXX 米
+…………
+范围 500-700m, 角度区间 315.0-337.5度: 平均高程差为 XXX 米
+范围 500-700m, 角度区间 337.5-360.0度: 平均高程差为 XXX 米
+```
 
