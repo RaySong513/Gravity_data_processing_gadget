@@ -63,7 +63,7 @@
 3. 实地地形剖面图（下方）
 
 ### 📏 中心地形改正计算（Central_terrain_correction_calc.py）
-该程序自动读取 `data.xlsx` 文件中的所有 sheet 数据。第一列为点号或坐标位置（用于 X 轴），第二列为布格重力异常值。程序测算中心点与改正范围内所有点的平均值之差，并根据角度扇形区域输出该区域内差值，以便后续查阅 <扇形域重力地形改正表>。
+该程序自动测算中心点与改正范围内所有点的平均值之差，并根据角度扇形区域输出该区域内差值，以便后续查阅 <扇形域重力地形改正表>。
 
 ![Python Version](https://img.shields.io/badge/python-3.11-blue)
 ![Libraries Used](https://img.shields.io/badge/libraries-pandas%2C%20openpyxl%2C%20msvcrt%2C%20numpy-blue)
